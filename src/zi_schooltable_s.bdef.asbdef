@@ -72,6 +72,7 @@ authorization dependent by _SchoolTableAll
     Board = BOARD;
     Location = LOCATION;
     City = CITY;
+    Principal = PRINCIPAL;
   }
 
   association _SchoolTableAll { with draft; }

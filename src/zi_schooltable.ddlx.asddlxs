@@ -28,7 +28,7 @@ annotate view ZI_SchoolTable with
     id: 'ZI_SchoolTable', 
     purpose: #STANDARD, 
     type: #IDENTIFICATION_REFERENCE, 
-    label: 'School Table', 
+    label: 'School', 
     position: 1 
   } ]
   Schoolid;
@@ -66,4 +66,15 @@ annotate view ZI_SchoolTable with
     position: 5 
   } ]
   City;
+  
+  @UI.identification: [ {
+    position: 6,
+    label: 'Principal' 
+  } ]
+  @UI.lineItem: [ {
+    position: 6,
+    label: 'Principal' 
+  } ]
+  Principal;
+  
 }

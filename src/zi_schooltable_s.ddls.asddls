@@ -16,7 +16,7 @@ define root view entity ZI_SchoolTable_S
     id: 'ZI_SchoolTable', 
     purpose: #STANDARD, 
     type: #LINEITEM_REFERENCE, 
-    label: 'School Table', 
+    label: 'Schools', 
     position: 1 , 
     targetElement: '_SchoolTable'
   } ]
@@ -34,7 +34,7 @@ define root view entity ZI_SchoolTable_S
     semanticObjectAction: 'manage'
   } ]
   @Consumption.semanticObject: 'CustomizingTransport'
-  cast( '' as SXCO_TRANSPORT) as TransportRequestID,
+  cast( '' as sxco_transport) as TransportRequestID,
   _ABAPTransportRequestText
 }
 where I_Language.Language = $session.system_language

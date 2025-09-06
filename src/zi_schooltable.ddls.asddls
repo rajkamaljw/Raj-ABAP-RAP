@@ -10,6 +10,7 @@ define view entity ZI_SchoolTable
   board as Board,
   location as Location,
   city as City,
+  principal as Principal,
   @Consumption.hidden: true
   1 as SingletonID,
   _SchoolTableAll
